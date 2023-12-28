@@ -1,0 +1,21 @@
+title: Compendium
+author: Hristo Nikolov
+
+execute:
+  execute_notebooks: force
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+repository:
+  url: https://github.com/hrstnikolov/compendium
+  branch: main
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+
+sphinx:
+  config:
+    default_mode: light
