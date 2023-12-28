@@ -1,16 +1,18 @@
 # Compendium
 Collection of my study notes on various topics.
 
+Visit in GitHub Pages [here](https://hrstnikolov.github.io/compendium/intro.html).
+
 Requireted python packages to build and deploy the book: `jupyter-book`, `ghp-import`.
 
 
 | Action | Command |
 |---|---|
-| build the jupyter book | `jb build compendium` |
-| deploy book to GitHub Pages | `ghp-import -n -p -f _build/html` |
-| save packages for future use | `conda list --export > package-list.txt` |
-| reinstall packages from an export file | `conda create -n myenv --file package-list.txt` |
-| freeze requirements [^1] | `pip list --format=freeze > requirements.txt` |
+| Build the jupyter book. If the table of contents is broken, add `--add` option to the command. | `jb build compendium` |
+| Deploy book to GitHub Pages. | `ghp-import -n -p -f _build/html` |
+| Save packages for future use. | `conda list --export > package-list.txt` |
+| Reinstall packages from an export file. | `conda create -n myenv --file package-list.txt` |
+| Freeze requirements and create requirements.txt. [^1] | `pip list --format=freeze > requirements.txt` |
 
 
 
